@@ -4,7 +4,7 @@
 // -----------------------
 
 // 1. Expliquez ce qu'est-ce qu'une variable.
-// REPONSE: c'est un conteneur qui stock des informations,elles peut avoir différents types de valeurs comme des nombres,des chaînes de caractère etc...
+// REPONSE: c'est un conteneur qui garde des informations,elles peut avoir différents types de valeurs comme des nombres,des chaînes de caractère etc...
 
 // -----------------------
 // 2. Déclarez une variable s'appelant "firstName" et dont la valeur est votre prénom.
