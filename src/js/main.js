@@ -37,10 +37,13 @@ var cardContent = document.querySelector("#card1 .card-content");
 cardContent.classList.add("hilight");
 // -----------------------
 // 9. Récupérez la valeur de l'attribut "placeholder" (.getAttribute("...")) de l'élément HTML <input> (ligne 17 du code HTML).
-
+var placeholderValue = document
+  .querySelector("#password-input")
+  .getAttribute("placeholder");
+console.log(placeholderValue);
 // -----------------------
 // 10. Expliquez ce qu'est un écouteur d'événement.
-// REPONSE:
+// REPONSE:??
 
 // -----------------------
 // 11. Sur l'élément HTML button (ligne 26 du code HTML), écoutez l'événement "click":
