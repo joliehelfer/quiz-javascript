@@ -46,7 +46,8 @@ console.log(placeholderValue);
 // REPONSE:??
 
 // -----------------------
-// 11. Sur l'élément HTML button (ligne 26 du code HTML), écoutez l'événement "click":
+// 11. Sur l'élément HTML button (ligne 26 du code HTML), écoutez l'événement "click":¨
 // 11.1 : Sélectionnez l'élément HTML <button> (ligne 26 du code HTML).
+var button = document.querySelector("#card-btn");
 // 11.2 : Utilisez la méthode .addEventListener("...", function() {...}) sur l'élément HTML sélectionné en 11.1 pour écouter l'événement "click".
 // 11.3 : Lorsqu'un.e utilisateurice clique sur le bouton, ajoutez/supprimez (toggle) la class ".hide" de l'élément HTML <p> (ligne 29-31 du code HTML).
