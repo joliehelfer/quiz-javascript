@@ -24,13 +24,13 @@ let age = 18;
 
 // -----------------------
 // 6. A quoi sert la méthode document.querySelector("..."); ?
-// REPONSE:
+// REPONSE:document.queryselector() sert à sélectionner le premier élément dans un fichier wui corrspond au selecteur css qui est montré (utlilisé?)
 
 // -----------------------
 // 7. A l'aide de la méthode document.querySelector("..."), sélectionnez l'élément <p> (ligne 14 du code HTML):
 // 7.1 Créez une variable appelée "cardContent".
 // 7.2 Assignez lui l'élément <p> (ligne 14 du code HTML) que vous avez sélectionné en 7.1.
-
+var cardContent = document.querySelector("#card1 .card-content");
 // -----------------------
 // 8. Utilisez la variable "cardContent" créée à l'exercice 7:
 // 8.1 Utilisez la propriété .classList pour ajouter (.add("...")) la class ".highlight" à l'élément HTML.
